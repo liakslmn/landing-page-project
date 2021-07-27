@@ -37,6 +37,11 @@ hr {
   font-size: 14px;
 }
 
+.img1{
+  width: 100%;
+  height: 100%;
+}
+
 .nav-link:hover{
   color: #f4511e;
   border-top: 3px solid #f4511e;
@@ -108,6 +113,27 @@ hr {
 	transition: all .3s;
 }
 
+.container-fluid .owl-carousel {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container-fluid .owl-nav .owl-prev{
+  position: absolute;
+  color: white !important;
+  background-color: white;
+  left: -40px;
+  top: 40%;
+}
+
+.container-fluid .owl-nav .owl-next{
+  position: absolute;
+  color: white !important;
+  background-color: white;
+  right: -40px;
+  top: 40%;
+}
+
 .container-fluid {
   background: rgba(0, 0, 0, 0.5);;
 }
@@ -161,7 +187,7 @@ hr {
 .img-fluid1 {
   width: 80px;
   border-radius: 100%;
-  float: left;
+  float: center;
 }
 
 .color {

@@ -19,6 +19,11 @@ $(document).ready(function(){
   $("#main .owl-carousel").owlCarousel({
     dots: false,
     loop: 2,
+    nav: true,
+    navText: [
+      '<i class="fas fa-arrow-left"></i>',
+      '<i class="fas fa-arrow-right"></i>'
+    ],
     responsive: {
       0: {
         items: 1
