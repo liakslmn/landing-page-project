@@ -190,6 +190,11 @@ hr {
   float: center;
 }
 
+.box {
+  display: flex;
+  justify-content: center;
+}
+
 .color {
   color: #f4511e;
 }
@@ -215,6 +220,7 @@ hr {
 
 .card {
   background-color: #f4511e;
+  overflow: hidden;
 }
 
 .card h1, p {
